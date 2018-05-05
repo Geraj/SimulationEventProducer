@@ -1,8 +1,4 @@
-/*
- * Copyright (C) TBA BV
- * All rights reserved.
- * www.tba.nl
- */
+
 package main;
 
 import java.awt.Window;

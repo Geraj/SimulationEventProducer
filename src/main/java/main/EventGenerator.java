@@ -1,8 +1,4 @@
-/*
- * Copyright (C) TBA BV
- * All rights reserved.
- * www.tba.nl
- */
+
 package main;
 
 import java.awt.ComponentOrientation;
@@ -89,7 +85,7 @@ public class EventGenerator {
      * event-dispatching thread.
      */
     private static void createAndShowGUI() {
-        //Create and set up the window
+        //Create and set up the window.
         JFrame frame = new JFrame("GridBagLayoutDemo");
         frame.setSize(300, 100);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
