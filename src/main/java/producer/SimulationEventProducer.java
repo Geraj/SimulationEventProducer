@@ -1,8 +1,3 @@
-/*
- * Copyright (C) TBA BV
- * All rights reserved.
- * www.tba.nl
- */
 package producer;
 
 import java.util.ArrayList;
