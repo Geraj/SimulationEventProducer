@@ -28,12 +28,12 @@ public class ExchangeConnector {
   private String host;
   
   /**
-   * 
    */
   private Channel channel;
   
   /** connection */
   private Connection connection; 
+  
   /**
    * 
    * Constructs a new instance.
