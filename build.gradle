@@ -14,7 +14,8 @@ apply plugin: 'eclipse'
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    mavenLocal()
+    jcenter()    
 }
 
 dependencies {
@@ -28,6 +29,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     //
     compile 'com.rabbitmq:amqp-client:5.2.0'
+    compile 'geraj.sim:simulation-event:1.0'
     
 }
 
