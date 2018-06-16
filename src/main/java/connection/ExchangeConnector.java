@@ -96,7 +96,7 @@ public class ExchangeConnector {
    */
   public void sendEventToExchange(Event event) {
     try {
-    this.channel.basicPublish( exchange , "", null, EventSerializationUtil.toByteArray(event));
+    	this.channel.basicPublish( exchange , "", null, EventSerializationUtil.toByteArray(event));
     } catch (IOException ex) {
       ex.printStackTrace();
       System.out.println(ex);
